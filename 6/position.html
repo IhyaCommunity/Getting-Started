@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+
+    <style>
+        body {
+            color: #fff;
+            height: 1200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+            background-color: #222;
+            border: 1px solid #000;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: darkolivegreen;
+            color: #fff;
+            padding: 4px;
+            margin: 4px;
+            border: 1px solid #888;
+        }
+        
+        .alternate {
+            background-color: darkorange;
+        }
+        
+        .relative {
+            color: #000;
+            position: relative;
+            background-color: #fff;
+            top: 50px;
+            left: 50px;
+            z-index: 10;
+        }
+        
+        .absolute {
+            position: absolute;
+            background-color: #900;
+            top: 50px;
+            right: 50px;
+            z-index: 20;
+        }
+
+        /*.relative:hover,
+        .absolute:hover {
+            z-index: 50;
+        }*/
+        
+        .back-top-link {
+            display: inline-block;
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 4px;
+        }
+        
+        .fixed {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box alternate">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box alternate">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box alternate relative">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <div class="box alternate absolute">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsa, possimus! Labore laborum beatae exercitationem laboriosam reiciendis, vero saepe est quis eligendi. Delectus deserunt aut ad, quis nobis eius sequi.</p>
+        </div>
+
+        <a class="back-top-link fixed" href="#">Back to Top</a>
+
+    </div>
+
+</body>
+
+</html>

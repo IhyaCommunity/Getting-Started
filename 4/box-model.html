@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+
+    <style>
+
+        a {
+            /*display: block;*/
+            background-color: #ccc;
+        }
+
+        .inline {
+            display: inline-block;
+            border: 1px solid #444;
+            margin: 10px;
+        }
+
+        .box {
+            display: block;
+            border: 1px solid darkolivegreen;
+            width: 300px;
+            min-height: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .hide {
+            /*display: none;
+            visibility: hidden;
+            opacity: .8;*/
+        }
+        
+
+    </style>
+
+
+</head>
+<body>
+
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+
+    <br>
+
+    <div class="inline">
+        Lorem ipsum dolor sit amet
+    </div>
+
+    <div class="inline">
+        Lorem ipsum dolor sit amet
+    </div>
+
+    <div class="box hide">
+        content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum autem velit, nesciunt eos corporis praesentium numquam illo sequi, ad, soluta fuga modi excepturi doloremque? Dignissimos quae vel, eaque voluptatem accusamus.
+    </div>
+
+    <div class="box">
+        content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum autem velit, nesciunt eos corporis praesentium numquam illo sequi, ad, soluta fuga modi excepturi doloremque? Dignissimos quae vel, eaque voluptatem accusamus.
+    </div>
+    
+</body>
+</html>

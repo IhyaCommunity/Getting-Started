@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(168, 234, 248);
+}
+
+.wrapper {
+    width: 1120px;
+    margin: 14px auto 14px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .4);
+}
+
+.clearfix::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(243, 161, 3);
+    display: inline-block;
+    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: rgb(4, 164, 45);
+}
+
+.btn:active {
+    background-color: #000;
+}
+
+.no-display {
+    display: none;
+}

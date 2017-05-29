@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo Classes</title>
+
+    <style>
+
+        #para {
+            color: #888;
+        }
+
+        #para:hover {
+            color: darkorange;
+        }
+
+        a {
+            color: #222;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darkorange;
+        }
+
+        a:active {
+            color: darkred;
+        }
+        
+        .search-form input {
+            border: 1px solid #ccc;
+            border-bottom: 4px solid #555;
+        }
+
+        .search-form input:focus {
+            border-bottom: 4px solid darkolivegreen;
+        }
+
+        .box {
+            color: #fff;
+            height: 200px;
+            background-color: #555;
+        }
+
+        .box:hover {
+            color: #000;
+            background-color: darkorange;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+
+    <br>
+
+    <form class="search-form">
+        <input type="text">
+    </form>
+
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas consequatur laudantium modi maiores deleniti explicabo non, beatae. Voluptates similique velit, consequatur ab neque vel molestiae voluptatibus. Dolore, natus. Voluptatem, deleniti?</p>
+    
+    <div class="box">
+        Box 1
+    </div>
+
+    <div class="box">
+        Box 2
+    </div>
+
+    <div class="box">
+        Box 3
+    </div>
+
+</body>
+</html>

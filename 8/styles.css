@@ -1,0 +1,14 @@
+h1 {
+    color: #888;
+}
+
+p {
+    color: #555;
+    font-size: 1.5rem;
+}
+
+.box {
+    height: 40vh;
+    background-color: darkolivegreen;
+    color: #fff;
+}
