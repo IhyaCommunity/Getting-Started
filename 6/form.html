@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="http://httpbin.org/get" method="GET">
+        <label>
+            Age:
+            <input name="user-age" type="number">
+        </label>
+
+        <br>
+
+        <label>
+            Phone:
+            <input name="user-phone" type="text">
+        </label>
+
+        <br>
+
+        <label>
+            Email:
+            <input name="user-email" type="email">
+        </label>
+        
+        <br>
+
+        <label for="pass">
+            Password:
+        </label>
+
+        <input id="pass" name="user-pass" type="password">
+
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
