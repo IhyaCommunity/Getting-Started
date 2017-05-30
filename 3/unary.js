@@ -6,5 +6,3 @@ var status = false;
 
 // Logical NOT Operator
 console.log(!status);
-
-
