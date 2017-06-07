@@ -10,61 +10,60 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
-        .top-nav ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            text-align: center;
-        }
-        
-        .top-nav li {
-            display: inline-block;
-        }
-        
-        .top-nav a {
-            color: #fff;
-            background-color: #222;
-            display: inline-block;
-            padding: 8px 12px 8px 12px;
-            border: 1px solid #888;
-            text-decoration: none;
-        }
-        
-        .top-nav a:hover {
-            color: #222;
-            background-color: #fff;
-        }
+              .top-nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+      }
+      
+      .top-nav li {
+        display: inline-block;
+      }
 
-        .top-nav a:active {
-            color: #900;
-
-        }
-        
-        .dropdown {
-            position: relative;
-        }
-        
-        .dropdown > a::after {
-            content: '▼';
-            margin-left: 4px;
-        }
-        
-        .dropdown ul {
-            position: absolute;
-            display: none;
-        }
-        
-        .dropdown li {
-            display: block;
-        }
-        
-        .dropdown li a {
-            width: 115%;
-        }
-        
-        .dropdown:hover ul {
-            display: block;
-        }
+      .top-nav a {
+        color: #fff;
+        background-color: #222;
+        display: inline-block;
+        padding: 8px 12px;
+        border: 1px solid #888;
+        text-decoration: none;
+      }
+      
+      .top-nav a:hover {
+        color: #222;
+        background-color: #fff;
+      }
+      
+      .top-nav a:active {
+        color: #fff;
+        background-color: darkolivegreen;
+      }
+      
+      .dropdown {
+        position: relative;
+      }
+      
+      .dropdown ul {
+        position: absolute;
+        left: 0px;
+        width: 100px;
+        display: none;
+      }
+      
+      .dropdown > a::after {
+        content: '▼';
+        margin-left: 4px;
+      }
+      
+      .dropdown li,
+      .dropdown a {
+        display: block;
+      }
+      
+      .dropdown:hover ul {
+        display: block;
+      }
     </style>
 
 </head>
