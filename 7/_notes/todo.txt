@@ -1,7 +1,7 @@
 Workflow:
 
-Project folder structure
 - Wireframe / Mockup, or PSD
+- Project folder structure
 - Layout
     - Width 1120px
     - Colors:
