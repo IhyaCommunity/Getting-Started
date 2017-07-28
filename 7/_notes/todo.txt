@@ -1,6 +1,7 @@
 Workflow:
 
-- Wireframe / Mockup, or PSD
+- Wireframe / Mockup, or Sketch
+- Design (Optional)
 - Project folder structure
 - Layout
     - Width 1120px

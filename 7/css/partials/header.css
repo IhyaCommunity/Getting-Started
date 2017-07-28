@@ -1,7 +1,7 @@
 .top {
     padding: 14px;
-    border-bottom: 1px solid #eee;
-    /*box-shadow: 0 8px 24px rgba(0, 0, 0, .4);*/
+    border-bottom: 4px dashed #ddd;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .4);
 }
 
 .logo {
