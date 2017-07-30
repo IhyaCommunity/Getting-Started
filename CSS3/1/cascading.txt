@@ -1,0 +1,6 @@
+Browser/User-Agent CSS
+Web/Author CSS
+    External CSS
+    Embedded CSS
+    Inline CSS
+Custom CSS

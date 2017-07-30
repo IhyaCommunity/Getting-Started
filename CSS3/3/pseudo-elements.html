@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo Elements</title>
+
+    <style>
+        h1::before {
+            content: '►';
+            color: green;
+        }
+
+        p::after {
+            content: '◄';
+            color: green;
+        }
+
+        p::-moz-selection {
+            color: #fff;
+            background-color: darkolivegreen;
+        }
+
+        p::selection {
+            color: #fff;
+            background-color: darkolivegreen;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <h1>Pseudo Elements</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsum, ea obcaecati velit illo eius porro reprehenderit, natus iste asperiores vitae odit accusamus. Delectus, ullam nam voluptates dolore, perspiciatis incidunt!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsum, ea obcaecati velit illo eius porro reprehenderit, natus iste asperiores vitae odit accusamus. Delectus, ullam nam voluptates dolore, perspiciatis incidunt!</p>
+
+</body>
+</html>

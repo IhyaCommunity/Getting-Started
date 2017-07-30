@@ -1,0 +1,34 @@
+/* Larger than Mobile */
+@media (min-width: 400px) {
+    .box {
+        background-color: darkblue;
+    }
+}
+
+/* Larger than Phablet (Phone & Tablet) */
+@media (min-width: 550px) {
+    .box {
+        background-color: darkseagreen;
+    }
+}
+
+/* Larger than Tablet */
+@media (min-width: 750px) {
+    .box {
+        background-color: darkviolet;
+    }
+}
+
+/* Larger than Desktop */
+@media (min-width: 1140px) {
+    .box {
+        background-color: darkcyan;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1280px) {
+    .box {
+        background-color: darkorange;
+    }
+}

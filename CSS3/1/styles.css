@@ -1,0 +1,25 @@
+/* CSS File */
+
+h1 {
+    font-size: 44px;
+    color: darkred;
+}
+
+p {
+    color: olive;
+}
+
+mark {
+    background-color: yellowgreen;
+}
+
+
+#para {
+    border: 2px solid #999;
+    font-size: 24px;
+}
+
+.para-group {
+    color: white;
+    background-color: black;
+}

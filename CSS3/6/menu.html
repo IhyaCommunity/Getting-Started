@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown Menu</title>
+
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+              .top-nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+      }
+      
+      .top-nav li {
+        display: inline-block;
+      }
+
+      .top-nav a {
+        color: #fff;
+        background-color: #222;
+        display: inline-block;
+        padding: 8px 12px;
+        border: 1px solid #888;
+        text-decoration: none;
+      }
+      
+      .top-nav a:hover {
+        color: #222;
+        background-color: #fff;
+      }
+      
+      .top-nav a:active {
+        color: #fff;
+        background-color: darkolivegreen;
+      }
+      
+      .dropdown {
+        position: relative;
+      }
+      
+      .dropdown ul {
+        position: absolute;
+        left: 0px;
+        width: 100px;
+        display: none;
+      }
+      
+      .dropdown > a::after {
+        content: '▼';
+        margin-left: 4px;
+      }
+      
+      .dropdown li,
+      .dropdown a {
+        display: block;
+      }
+      
+      .dropdown:hover ul {
+        display: block;
+      }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Features</a>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
