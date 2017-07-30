@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Elements</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+
+        <fieldset>
+            <legend>Login Informations</legend>
+            
+            <input type="email" placeholder="email@example.com"> <br>
+            <input type="password"> 
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Informations</legend>
+            <input type="tel" placeholder="Mobile"> <br>
+            <input type="url" placeholder="Website">
+        </fieldset>
+
+        <br>
+
+        <input type="text" maxlength="8"> <br>
+        <input type="number"> <br>
+        <input type="range"> <br>
+
+        <br>
+        
+        <select name="country" autocomplete="off">
+            <option value="">Select Country</option>
+            <optgroup label="Asia">
+                <option value="PK">Pakistan</option>
+                <option value="CN">China</option>
+            </optgroup>
+
+            <optgroup label="Middle East">
+                    <option value="SA">Saudi Arabia</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <input type="search" list="country-list">
+
+        <datalist id="country-list">
+            <option>Pakistan</option>
+            <option>China</option>
+            <option>Saudi Arabia</option>
+            <option>UAE</option>
+            <option>USA</option>
+        </datalist>
+
+        <br>
+
+        <label>
+            <input type="checkbox">
+            Option 1
+        </label>
+
+        <label>
+            <input type="radio" name="gender">
+            Male
+        </label>
+
+        <label>
+            <input type="radio" name="gender">
+            Female
+        </label>
+
+        <br>
+
+        <textarea maxlength="100"></textarea>
+
+         <br>
+        
+        <br>
+        
+        <!-- Browser support is not good -->
+        <input type="date"> <br>
+        <input type="datetime"> <br>
+        <input type="color"> <br>
+
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+    
+</body>
+</html>
