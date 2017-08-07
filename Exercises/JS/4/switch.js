@@ -9,8 +9,8 @@ switch (code) {
         console.log('United Kingdom');
     break;
 
-    case 'IN':
-        console.log('India');
+    case 'CN':
+        console.log('China');
     break;
 
     default:
