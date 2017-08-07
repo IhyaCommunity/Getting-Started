@@ -1,0 +1,1 @@
+Create HTML webpage layout without CSS. Articles are linked to the navigation via internal-linking by ID.
