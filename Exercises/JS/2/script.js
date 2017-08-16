@@ -1,2 +1,6 @@
-var number = 10;
-alert(number + 10);
+var firstName = 'Ali';
+var lastName = 'Hamza';
+
+var fullName = firstName + ' ' + lastName;
+
+alert(fullName);

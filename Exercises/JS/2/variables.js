@@ -1,14 +1,16 @@
-const appTitle = 'JS Program';
+// String
+var name = 'Ali';
+
+// console.log(name.length);
 
 // Number
 var number1 = 10;
 var number2 = 10.5;
 
-// String
-var name = 'Ali';
-
 // Boolean
-var status = true;
+var status = false;
+
+const appTitle = 'JS Program';
 
 // Log on CLI
-console.log(typeof status);
+//console.log(appTitle);

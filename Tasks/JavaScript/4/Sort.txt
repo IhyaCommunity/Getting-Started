@@ -1,0 +1,4 @@
+1. Create two multiline textboxes, a button
+2. First textbox will contain a list of unordered items
+3. On button click read unordered items from the first textbox
+4, Show sorted/ordered items in the second textbox and also in a list element
