@@ -1,3 +1,3 @@
 <?php
-$name = 'John';
+$name = 'Ali';
 echo $name;

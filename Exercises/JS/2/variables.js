@@ -5,7 +5,7 @@ var number1 = 10;
 var number2 = 10.5;
 
 // String
-var name = 'John';
+var name = 'Ali';
 
 // Boolean
 var status = true;

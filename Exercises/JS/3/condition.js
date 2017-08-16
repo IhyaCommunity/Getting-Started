@@ -1,15 +1,15 @@
 // Conditional Statement
 
-// var name = 'John';
+// var name = 'Ali';
 
-// if (name != 'John') {
+// if (name != 'Ali') {
 //     console.log('Condtion is true');
 // }
 // else {
 //     console.log('Condtion is false');
 // }
 
-// if (name == 'John') {
+// if (name == 'Ali') {
 //     console.log('Welcome user!');
 // }
 // else if (name == 'Ali') {
@@ -21,7 +21,7 @@
 
 // Nested Conditions
 
-// if (name == 'John' || name == 'Ali') {
+// if (name == 'Hamza' || name == 'Ali') {
 //     console.log('Welcome user!');
 
 //     if (name == 'Ali') {
