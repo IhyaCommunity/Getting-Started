@@ -2,6 +2,7 @@
 
 var rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 
+// console.log(rainbow.length);
 // console.log(rainbow[0]);
 
 // Get last item
@@ -23,7 +24,7 @@ var rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 // var index = rainbow.indexOf('Blue');
 
 // Remove and replace
-// rainbow.splice(2, 3);
+// rainbow.splice(2, 1);
 
 // Split
 
@@ -36,4 +37,3 @@ var rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 // for (var i = 0; i < rainbow.length; i++) {
 //     console.log(rainbow[i]);
 // }
-
