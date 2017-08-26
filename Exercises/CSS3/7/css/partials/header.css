@@ -1,4 +1,4 @@
-.top {
+.site-header {
     padding: 14px;
     border-bottom: 4px dashed #ddd;
     box-shadow: 0 8px 24px rgba(0, 0, 0, .4);
@@ -16,7 +16,7 @@
 .logo h1 {
     color: #222;
     display: inline;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     margin: 0;
 }
 
@@ -37,16 +37,16 @@
 }
 
 .hero h2,
-.hero h3 {
+.hero p {
     color: rgb(244, 244, 244);
     margin: 0;
     padding: 0;
 }
 
 .hero h2 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
-.hero h3 {
-    font-size: 2em;
+.hero p {
+    font-size: 2rem;
 }

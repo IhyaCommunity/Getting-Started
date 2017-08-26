@@ -1,0 +1,23 @@
+.gallery .box, .gallery a {
+    display: inline-block;
+}
+
+.gallery .box {
+    margin: 30px;
+    position: relative;
+}
+
+.gallery .box .overlay {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .4);
+    height: 50%;
+    bottom: 0;
+    padding: 0 10px 0 10px;
+}
+
+.gallery .box:hover .overlay {
+    display: block;
+}

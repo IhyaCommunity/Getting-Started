@@ -1,0 +1,10 @@
+.featured {
+    margin: 34px 0;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #333;
+    text-decoration: underline;
+}

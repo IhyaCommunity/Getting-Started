@@ -1,5 +1,6 @@
 body {
     background-color: rgb(168, 234, 248);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -11,8 +12,8 @@ body {
 }
 
 .clearfix::after {
-    display: block;
     content: ' ';
+    display: block;
     clear: both;
 }
 
@@ -24,7 +25,7 @@ body {
     border-radius: 4px;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .btn:hover {
