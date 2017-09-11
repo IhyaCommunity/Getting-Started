@@ -5,11 +5,11 @@ var classRoom1 = {
     ongoing: true
 };
 
-var classRoom2 = classRoom;
-classRoom1.students = 5;
+// var classRoom2 = classRoom1;
+// classRoom1.students = 5;
 
-console.log(classRoom1.students);
-console.log(classRoom2.students);
+// console.log(classRoom1.students);
+// console.log(classRoom2.students);
 
 // var name1 = 'Ali';
 // var name2 = name1;

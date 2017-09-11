@@ -1,27 +1,32 @@
 // Object
 
 var bird = {
+    id: 5,
     name: 'bird',
     canFly: true,
     color: 'green',
     nest: true,
-    canSleep: false,
     isSitting: true
 };
 
 // console.log('Flying: ' + bird.canFly);
 // console.log('Color: ' + bird.color);
 
-// var duck = new Object(bird);
+// Copy/Assign Object
 
-// duck.name = 'duck';
-// duck.isSearchEingine = false;
+// var duck = {};
+// Object.assign(duck, bird);
 
+// duck.name = 'Duck';
+// duck.canFly = false;
+
+// console.log(bird);
 // console.log(duck);
 
 // JSON
 
-// var stringObj = '{'name': 'Duck'}';
-// var obj = JSON.parse(stringObj);
+var stringObj = '{"name": "Ali"}';
+var obj = JSON.parse(stringObj);
 
+// console.log(typeof stringObj);
 // console.log(obj.name);
