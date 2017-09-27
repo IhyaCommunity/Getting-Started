@@ -1,6 +1,6 @@
 // Conditional Statement
 
-// var name = 'Ali';
+var name = 'Ali';
 
 // if (name != 'Ali') {
 //     console.log('Condtion is true');
@@ -9,14 +9,14 @@
 //     console.log('Condtion is false');
 // }
 
-// if (name == 'Ali') {
+// if (name == 'Hamza') {
 //     console.log('Welcome user!');
 // }
 // else if (name == 'Ali') {
 //     console.log('Welcome admin!');
 // }
 // else {
-//     console.log('Condtion is false');
+//     console.log('Name is not valid');
 // }
 
 // Nested Conditions
@@ -37,7 +37,7 @@
 
 // OR Operator
 
-// var username = 'user2';
+// var username = 'user2asdfsadf';
 // var email = 'user2@example.com';
 
 // if (username == 'user2' || email == 'user1@example.com') {
@@ -49,7 +49,7 @@
 
 // AND Operator
 
-// var username = 'user1';
+// var username = 'user1asdf';
 // var password = 'pass123';
 
 // if (username == 'user1' && password == 'pass123') {
