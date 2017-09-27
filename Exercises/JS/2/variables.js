@@ -1,16 +1,21 @@
 // String
-var name = 'Ali';
-
-// console.log(name.length);
+// var name = 'Ali';
+// var name = '10';
 
 // Number
-var number1 = 10;
-var number2 = 10.5;
+var num = 10;
+// var num = 10.5;
 
 // Boolean
 var status = false;
 
-const appTitle = 'JS Program';
+// Object
+// console.log(typeof console);
 
-// Log on CLI
-//console.log(appTitle);
+// Constant
+// const appTitle = 'JS Program';
+// appTitle = 'My Program';
+
+// console.log(appTitle);
+// console.log(typeof name);
+// console.log(name.length);

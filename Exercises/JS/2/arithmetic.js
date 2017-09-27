@@ -1,9 +1,9 @@
-var number1 = 10;
-var number2 = 10;
+var num1 = 10;
+var num2 = 10;
 
-var number = number1 + number2;
+var num = num1 + num2;
 
-// number += 10;
+// num += 1;
 
 // Assign Operators
 // =
@@ -24,4 +24,6 @@ var number = number1 + number2;
 // ++
 // --
 
-console.log(number);
+// num++;
+
+console.log(num);
