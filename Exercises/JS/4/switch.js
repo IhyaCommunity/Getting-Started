@@ -1,4 +1,4 @@
-var code = 'PK';
+var code = '';
 
 switch (code) {
     case 'PK':

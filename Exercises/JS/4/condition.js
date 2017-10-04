@@ -9,15 +9,15 @@ var name = 'Ali';
 //     console.log('Condtion is false');
 // }
 
-// if (name == 'Hamza') {
-//     console.log('Welcome user!');
-// }
-// else if (name == 'Ali') {
-//     console.log('Welcome admin!');
-// }
-// else {
-//     console.log('Name is not valid');
-// }
+if (name == 'Hamza') {
+    console.log('Welcome user!');
+}
+else if (name == 'Ali') {
+    console.log('Welcome admin!');
+}
+else {
+    console.log('Name is not valid');
+}
 
 // Nested Conditions
 
