@@ -1,6 +1,6 @@
 
 // Void Function
-// function showMessage(msg) {
+// fuunction showMessage(msg) {
 //     var output = 'Length: ' + msg.length + ' Message: ' + msg;
 
 //     console.log(output);

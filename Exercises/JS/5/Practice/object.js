@@ -14,7 +14,7 @@ var classRoom1 = {
 // var name1 = 'Ali';
 // var name2 = name1;
 
-// name2 = 'Abuzar';
+// name2 = 'Umar';
 
 // console.log(name1);
 // console.log(name2);

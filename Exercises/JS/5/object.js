@@ -25,8 +25,10 @@ var bird = {
 
 // JSON
 
-// var stringObj = '{"name": "Ali"}';
+//  var stringObj = JSON.stringify(bird);
+
+// var stringObj = '{"id": 10, "name": "Ali"}';
 // var obj = JSON.parse(stringObj);
 
 // console.log(typeof stringObj);
-// console.log(obj.name);
+// console.log(stringObj);
