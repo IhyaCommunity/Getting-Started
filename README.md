@@ -167,14 +167,14 @@ First Milestone: Fundamentals &amp; Essentials
 
 ### Useful
 
-- Manifesto for Agile Software Development
-[http://agilemanifesto.org/](http://agilemanifesto.org/)
-
-- Greasemonkey - Add-on for Firefox
-[https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+- Emoji Keyboard - Add-on for Firefox
+[https://addons.mozilla.org/en-US/firefox/addon/emojikeyboard/](https://addons.mozilla.org/en-US/firefox/addon/emojikeyboard/)
 
 - Wappalyzer - Add-on for Firefox
 [https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+
+- Greasemonkey - Add-on for Firefox
+[https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 
 - uBlock Origin - Add-on for Firefox
 [https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
