@@ -16,8 +16,8 @@
 
 ## Reading
 
-- MarkSheet: Free tutorial to learn HTML and CSS
+- 8 Things I Wish I Knew Before I Started Programming
 [https://medium.com/learn-love-code/6-things-i-wish-i-knew-before-i-started-programming-c8f7347fd1b8](https://medium.com/learn-love-code/6-things-i-wish-i-knew-before-i-started-programming-c8f7347fd1b8)
 
-- MarkSheet: Free tutorial to learn HTML and CSS
+- 8 Things I Wish I'd Known When I Started as a Web Developer - SitePoint
 [https://www.sitepoint.com/8-things-wish-id-known-started-developer/](https://www.sitepoint.com/8-things-wish-id-known-started-developer/)
