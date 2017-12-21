@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.box {
+    background-color: #eee;
+    padding: 2rem;
+}
+
+.box header h1 {
+    background-color: #ddd;
+    padding: .8rem;
+    margin: 0;
+}
