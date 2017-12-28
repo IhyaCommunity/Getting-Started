@@ -3,27 +3,3 @@
     border-bottom: 4px dashed #ddd;
     box-shadow: 0 8px 24px rgba(0, 0, 0, .4);
 }
-
-.logo {
-    float: left;
-}
-
-.logo a {
-    display: inline-block;
-    text-decoration: none;
-}
-
-.logo h1 {
-    color: #222;
-    display: inline;
-    font-size: 1.7rem;
-    margin: 0;
-}
-
-.logo img {
-    vertical-align: top;
-}
-
-.top-menu {
-    float: right;
-}
