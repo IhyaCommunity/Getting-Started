@@ -1,6 +1,26 @@
+function showGreeting(name) {
+    const msg = 'Have a good day!';
+    var greeting = name + ', ' + msg;
+  
+    alert(greeting);
+}
+
+function getGreeting(name) {
+    const greeting = 'Have a good day!';
+    var msg = name + ', ' + greeting;
+
+    return msg;
+}
+
+function showMessage(msg) {
+    alert(msg);
+    console.log(msg);
+}
+
+showMessage('some message');
 
 // Void Function
-// fuunction showMessage(msg) {
+// function showMessage(msg) {
 //     var output = 'Length: ' + msg.length + ' Message: ' + msg;
 
 //     console.log(output);

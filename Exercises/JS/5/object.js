@@ -6,7 +6,10 @@ var bird = {
     canFly: true,
     color: 'green',
     nest: true,
-    isSitting: true
+    isSitting: true,
+    fly: function() {
+        // Do something
+    }
 };
 
 // console.log('Flying: ' + bird.canFly);
@@ -19,6 +22,7 @@ var bird = {
 
 // duck.name = 'Duck';
 // duck.canFly = false;
+duck.canSwim = true;
 
 // console.log(bird);
 // console.log(duck);

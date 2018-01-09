@@ -1,25 +1,26 @@
 // DOM (Document Object Model)
 
+var el = document.querySelector('#para');
 var el = document.getElementById("para");
-// console.log(el.innerText);
+console.log(el.innerText);
 
-el.innerText = 'Lipsum Lipsum Lipsum...';
+// el.innerText = 'Lipsum Lipsum Lipsum...';
 
-document.querySelector('.hide').addEventListener('click', function () {
-    // document.getElementById('para').style.display = 'none';
+// document.querySelector('.hide').addEventListener('click', doSomething, false);
 
-    // document.getElementById('para').style.display = 'none';
-
-    document.getElementById('para').classList.add('no-display');
+// function doSomething() {
+    // var el = document.getElementById('para');
     
-}, false);
+//     // el.style.display = 'none';
 
+//     el.classList.add('no-display');   
+// }
 
-document.querySelector('.show').addEventListener('click', function () {
-    // document.getElementById('para').style.display = 'none';
+// document.querySelector('.show').addEventListener('click', function () {
+//     var el = document.getElementById('para');
 
-    // document.getElementById('para').style.display = 'block';
+//     // el.style.display = 'block';
 
-    document.getElementById('para').classList.remove('no-display');
+//     el.classList.add('no-display');
     
-}, false);
+// }, false);

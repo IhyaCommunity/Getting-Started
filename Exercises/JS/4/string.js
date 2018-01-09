@@ -1,7 +1,7 @@
 // String Manipulation
 
-// var number1 = 10;
-// var number2 = '10';
+var number1 = 10;
+var number2 = '10';
 
 // number2 = parseInt(number2);
 
@@ -20,15 +20,15 @@ var lipsum = ' Lorem it\'s "ipsum ipsum dolor" sit amet. ';
 
 // console.log('Lower Case: ' + para.toLowerCase());
 // console.log('Upper Case: ' + para.toUpperCase());
-// console.log('Something'.toUpperCase());
+// console.log('Something'.length);
 
 // console.log("Character: " + para.charAt(0));
 
 // var index = para.indexOf('ipsum');
-// var index = para.lastIndexOf('ipsum');
+// var lastIndex = para.lastIndexOf('ipsum');
 // console.log('Index: ' + index);
 
-// var slice = para.slice(index, para.length);
+// var slice = para.slice(index, lastIndex);
 // console.log('Slice: ' + slice);
 
 // para = para.replace('ipsum', 'xyz');
