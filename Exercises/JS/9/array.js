@@ -24,16 +24,16 @@ var rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
 // var index = rainbow.indexOf('Blue');
 
 // Remove and replace
-// rainbow.splice(2, 1);
+// var sliced = rainbow.splice(0, 1);
+// console.log(sliced);
 
 // Split
 
 // var string = 'lipsum, lipsum, lipsum, lipsum...';
 
 // var words = string.split(', ');
-
 // console.log(words);
 
-// for (var i = 0; i < rainbow.length; i++) {
-//     console.log(rainbow[i]);
-// }
+for (let i = 0; i < rainbow.length; i++) {
+    console.log(rainbow[i]);
+}
