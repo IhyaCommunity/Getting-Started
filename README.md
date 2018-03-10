@@ -48,9 +48,6 @@ First Milestone: Fundamentals &amp; Essentials
 - CSSMania - Biggest CSS Showcase all over the globe
 [http://www.cssmania.com/](http://www.cssmania.com/)
 
-- Smashing Magazine - for professional Web Designers and Developers
-[https://www.smashingmagazine.com/](https://www.smashingmagazine.com/)
-
 - CSS-Tricks
 [https://css-tricks.com/](https://css-tricks.com/)
 
